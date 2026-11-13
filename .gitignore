@@ -1,0 +1,32 @@
+# Data (too large for git)
+data/raw/
+data/interim/
+data/processed/
+*.mhd
+*.raw
+*.nii
+*.nii.gz
+*.zip
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Models and logs
+models/checkpoints/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,8 @@
+# Packages with ready-made Windows wheels on Python 3.15.
+# Do not add pyyaml/jupyter/torch here: they try to compile and need MSVC.
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.3
+SimpleITK>=2.3
+tqdm>=4.66

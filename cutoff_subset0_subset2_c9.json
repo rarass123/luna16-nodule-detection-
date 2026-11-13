@@ -1,0 +1,10 @@
+{
+  "cutoff": 0.8450555801391602,
+  "best_epoch": 24,
+  "val_pr_auc": 0.8442843944252877,
+  "subsets": [
+    "subset0",
+    "subset2"
+  ],
+  "context_slices": 9
+}

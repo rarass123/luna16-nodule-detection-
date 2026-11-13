@@ -1,0 +1,26 @@
+{
+  "paths": {
+    "raw_dir": "data/raw",
+    "processed_dir": "data/processed",
+    "annotations": "data/raw/annotations.csv",
+    "candidates": "data/raw/candidates_V2.csv"
+  },
+  "patch": {
+    "size_xy": 64,
+    "context_slices": 9,
+    "hu_min": -1000,
+    "hu_max": 400
+  },
+  "train": {
+    "subset": "subset0",
+    "subsets": ["subset0", "subset2"],
+    "max_scans": null,
+    "positives_per_scan": 50,
+    "negatives_per_scan": 20,
+    "batch_size": 16,
+    "epochs": 25,
+    "lr": 0.001,
+    "val_fraction": 0.2,
+    "seed": 42
+  }
+}
